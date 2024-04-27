@@ -1,0 +1,66 @@
+{
+    "name": "Ink it Up! Luke art",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "pxt-lantern": "github:felixtsu/pxt-lantern#v0.2.1",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0",
+        "arcade-character-animations": "github:microsoft/arcade-character-animations#v0.0.2",
+        "arcade-tile-util": "github:microsoft/arcade-tile-util#v1.1.0",
+        "arcade-sprite-util": "github:jwunderl/arcade-sprite-util#v0.4.1",
+        "arcade-sprite-data": "github:microsoft/arcade-sprite-data#v0.2.1",
+        "arcade-tilemap-a-star": "github:jwunderl/arcade-tilemap-a-star#v0.4.0",
+        "arcade-mini-menu": "github:riknoll/arcade-mini-menu#96cf1014271246d15b85368b45f298bd8c6609c4",
+        "pxt-status-bar": "github:jwunderl/pxt-status-bar#v0.4.2",
+        "arcade-story": "github:microsoft/arcade-storytelling#v1.0.3",
+        "Color Fading": "github:jwunderl/pxt-color#v0.2.2",
+        "BetterSettings": "github:S0m3randomguy/BetterSettings#2023.5.1",
+        "Declutter": "github:S0m3randomguy/declutter#6b0626bf1bd2c7d9a70b846031b5226e48ee932a",
+        "Stats": "github:UnsignedArduino/Stats#758e35856bd5565e5d0e25c95cccfac79b7fc168",
+        "darts": "*",
+        "Extra Effects": "github:alexszeto/extra-effects#v3.1.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v1.12.49",
+        "tag": "v1.12.49",
+        "commits": "https://github.com/microsoft/pxt-arcade/commits/8b39eda27ca91b27b57fc1f30c6b3b33d3fc2029",
+        "target": "1.12.51",
+        "pxt": "8.5.60",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj",
+    "palette": [
+        "#000000",
+        "#F5EEB0",
+        "#F05B5B",
+        "#EB6C98",
+        "#FABF61",
+        "#C6CC54",
+        "#2C5E3B",
+        "#609C4F",
+        "#5479B0",
+        "#78C2D6",
+        "#8F325F",
+        "#839FA6",
+        "#56546E",
+        "#E0D3C8",
+        "#8A5865",
+        "#452B3F"
+    ]
+}
