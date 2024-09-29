@@ -1465,7 +1465,6 @@ extraEffects.createPercentageRange(50, 100),
 extraEffects.createPercentageRange(50, 100),
 extraEffects.createTimeRange(100, 100)
 )
-extraEffects.createSpreadEffectAt(ShootRed, 75, 55, 100, 4, 100)
 stats.turnStats(true)
 let maps = [
 tileUtil.createSmallMap(tilemap`level15`),
@@ -1474,6 +1473,12 @@ tileUtil.createSmallMap(tilemap`level33`),
 tileUtil.createSmallMap(tilemap`level38`)
 ]
 scene.setBackgroundImage(assets.image`Ink`)
+scene.setBackgroundImage(assets.image`Ink`)
+scene.setBackgroundImage(assets.image`Ink`)
+scene.setBackgroundImage(assets.image`Ink`)
+scene.setBackgroundImage(assets.image`Ink`)
+scene.setBackgroundImage(assets.image`Ink`)
+pause(100)
 pauseUntil(() => controller.A.isPressed())
 mySprite = sprites.create(img`
     . . . . . . . . . . . . . . . . 
@@ -1593,9 +1598,9 @@ game.onUpdateInterval(150, function () {
     }
     if (swim_form) {
         if (hard_mode) {
-            statusbar.value += 2
+            statusbar.value += 4
         } else {
-            statusbar.value += 5
+            statusbar.value += 7
         }
     }
 })
